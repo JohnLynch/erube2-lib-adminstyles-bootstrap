@@ -1,0 +1,27 @@
+
+@activeNav: #fff;
+
+.topbar {
+	.nav {
+		a {		
+			padding:14px 14px 0;
+			font-size:16px;
+			font-weight:normal;
+			color:#ccc;
+			text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);			
+			&:hover{
+				color:#fff;
+				text-decoration: underline;				
+			}
+		}
+		.active {
+			a {
+				color:@activeNav;
+				text-shadow: 4px 2px 4px rgba(150, 150, 150, 0.5);
+				background-color:none;
+				
+				text-decoration:underline;
+			}
+		}
+	}
+}
